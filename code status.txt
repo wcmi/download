@@ -1,0 +1,23 @@
+ 
+client hello  		0x01
+server hello 		0x02
+client key exchange		0x10
+certificate			0x0b
+server key Exchange	0x0c
+server hello Done		0x0e
+Change cipher Spec		0x14
+Alert			0x15
+Handshake		0x16
+application data		0x17
+
+TCP_ESTABLISHED	0x18
+TCP_SYN_SENT	0x19
+TCP_SYN_RECV	0x1a
+TCP_FIN_WAIT1	0x1b
+TCP_FIN_WAIT2	0x1c
+TCP_TIME_WAIT	0x1d
+TCP_CLOSE	0x1e
+TCP_CLOSE_WAIT	0x1f
+TCP_LAST_ACK	0x20
+TCP_LISTEN	0x21
+TCP_CLOSING	0x22
